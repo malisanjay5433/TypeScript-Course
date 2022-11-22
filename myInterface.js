@@ -14,3 +14,23 @@ var myuser = { role: "admin", username: "malisanjay", password: "1212902", trail
     }, getCoupon: function (coupName, value) {
         return 10;
     }, githubToken: "user%%%Token" };
+var Instagram = /** @class */ (function () {
+    function Instagram(cameraMode, burst, filter) {
+        this.cameraMode = cameraMode;
+        this.burst = burst;
+        this.filter = filter;
+    }
+    return Instagram;
+}());
+var Youtube = /** @class */ (function () {
+    function Youtube(cameraMode, burst, filter, short) {
+        this.cameraMode = cameraMode;
+        this.burst = burst;
+        this.filter = filter;
+        this.short = short;
+    }
+    Youtube.prototype.createStory = function () {
+        return "Stored is created";
+    };
+    return Youtube;
+}());

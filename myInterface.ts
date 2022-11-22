@@ -35,3 +35,36 @@ trailUser(){
 },
 githubToken:"user%%%Token"
 }
+
+
+
+
+
+//Why interface are important in real world 
+
+
+interface TakePhoto{
+    cameraMode:string
+    burst:number
+    filter:string
+}
+interface Story{
+    createStory():string
+}
+class Instagram implements TakePhoto{
+   constructor(public cameraMode:string, public burst:number, public filter:string){
+
+   }
+}
+
+class Youtube implements TakePhoto, Story{
+    constructor(
+        public cameraMode:string,
+        public burst :number,
+        public filter:string,
+        public short:string
+    ){}
+    createStory(): string {
+    return "Stored is created"
+    }
+}
