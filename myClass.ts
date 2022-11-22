@@ -16,7 +16,9 @@ export{}
 //By using public in constructor don't need to use classic way of declartion, Pl check first example.
 class User{
     readonly place = "Mumbai"
-    private courseCount = 1
+    // private courseCount = 1
+    protected courseCount = 1
+
     constructor(
         public name :string, 
         public email:string,
@@ -36,6 +38,16 @@ set setCourseCount(courseNum){
     }
     this.courseCount = courseNum
  }
+}
+
+//How protcted modifier works 
+//Protected is yet private but can not access outside of the class but where it inherited it can be access
+
+class SubUser extends User{
+    familyMember:boolean = true
+    changeCourseCount(){
+        this.courseCount = 0
+    }
 }
 
 
