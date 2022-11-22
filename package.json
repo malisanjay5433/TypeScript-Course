@@ -1,0 +1,20 @@
+{
+  "name": "typescript-course",
+  "version": "1.0.0",
+  "description": "# Basics of Type Script",
+  "main": "intro.js",
+  "scripts": {
+    "test": "lite sever"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/malisanjay5433/TypeScript-Course.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/malisanjay5433/TypeScript-Course/issues"
+  },
+  "homepage": "https://github.com/malisanjay5433/TypeScript-Course#readme"
+}

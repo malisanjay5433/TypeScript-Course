@@ -16,13 +16,10 @@ const loginUser : Login = {username:"malisanjay", password:"Shweta@183",
  },
 }
 console.log(loginUser);
-
-
-
 interface User{
     githubToken:string
 }
-
+//Interface with inheritance 
 interface Admin extends Login, User{
     role :"admin" | "learner"
 }
@@ -35,3 +32,10 @@ trailUser(){
 },
 githubToken:"user%%%Token"
 }
+/*
+Type aliases and interface are similar 
+IN many cases you can choose between them freely.
+Almost all feature of interface are available in type
+main difference is type can not be re-opened to add new properties, 
+Where as interface always extendable does.
+*/
