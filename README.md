@@ -1,4 +1,4 @@
-# TypeScript-Course : A superset of Java Script
+# TypeScript :  A Static type checker and superset of Java Script
 
 # Basics of Type Script
 
