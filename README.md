@@ -30,7 +30,6 @@
 - **Type Narrowing in typescript**
 - **The in operator narrowing**
 - **Instanceof and Type Predicates**
-- **Discriminated Union and Exhaustiveness Checking with never**
 - **Typescript End**
 
 - Please do visit official [Docs](https://www.typescriptlang.org/docs/)
