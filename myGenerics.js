@@ -34,3 +34,19 @@ identityAny(3);
 identityType("Sanjay");
 identityType(21212);
 identityType(true);
+// Also let's dive deeper into the generic type
+function searchProducts(products) {
+    // search products locally
+    var indx = 3;
+    return products[indx];
+}
+var searchMoreProducts = function (product) {
+    var myIndex = 22;
+    return product[myIndex];
+};
+//and also <T,> uses sometime for reference ,
+//it's not any regular tag, Its generic tag
+var searchMore = function (product) {
+    var myIndex = 22;
+    return product[myIndex];
+};

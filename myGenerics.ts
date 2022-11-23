@@ -42,3 +42,23 @@ identityAny(3);
 identityType("Sanjay");
 identityType(21212);
 identityType(true);
+
+// Also let's dive deeper into the generic type
+
+function searchProducts<T>(products: T[]): T {
+  // search products locally
+  const indx = 3;
+  return products[indx];
+}
+
+const searchMoreProducts = <T>(product: T[]): T => {
+  const myIndex = 22;
+  return product[myIndex];
+};
+
+//and also <T,> uses sometime for reference ,
+//it's not any regular tag, Its generic tag
+const searchMore = <T>(product: T[]): T => {
+  const myIndex = 22;
+  return product[myIndex];
+};
