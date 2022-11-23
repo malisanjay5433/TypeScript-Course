@@ -62,3 +62,22 @@ const searchMore = <T>(product: T[]): T => {
   const myIndex = 22;
   return product[myIndex];
 };
+
+//Dive into Generic classes
+
+interface Quiz {
+  type: string;
+  name: string;
+}
+interface Course {
+  name: string;
+  author: string;
+  subject: string;
+}
+
+class Sellable<T> {
+  public myCart: T[] = [];
+  adddCourse(product: T) {
+    this.myCart.push(product);
+  }
+}

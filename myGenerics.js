@@ -50,3 +50,12 @@ var searchMore = function (product) {
     var myIndex = 22;
     return product[myIndex];
 };
+var Sellable = /** @class */ (function () {
+    function Sellable() {
+        this.myCart = [];
+    }
+    Sellable.prototype.adddCourse = function (product) {
+        this.myCart.push(product);
+    };
+    return Sellable;
+}());
