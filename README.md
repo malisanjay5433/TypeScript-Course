@@ -1,6 +1,6 @@
 # TypeScript :  A Static type checker and superset of Java Script
 
-# Basics of Type Script
+# 📝 Basics of Type Script
 
 - **Your first intro to typescript docs**
 - **Number, boolean and type inference**
@@ -32,3 +32,5 @@
 - **Instanceof and Type Predicates**
 - **Discriminated Union and Exhaustiveness Checking with never**
 - **Typescript End**
+
+- Please do visit official [Docs](https://www.typescriptlang.org/docs/)
