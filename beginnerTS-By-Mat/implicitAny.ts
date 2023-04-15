@@ -3,3 +3,4 @@ export const addTwoNumber = (a: number, b: number) => {
 };
 
 addTwoNumber(31, 1);
+export {};

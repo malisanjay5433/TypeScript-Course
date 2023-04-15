@@ -11,3 +11,4 @@ type TwoArgs = {
 export const addTwoNumbers = (params: TwoArgs) => {
   return params.first + params.second;
 };
+export {};
