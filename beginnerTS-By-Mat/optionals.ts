@@ -1,4 +1,4 @@
-export const getName = (params: { first: string; last: string }) => {
+export const getName = (params: { first: string; last?: string }) => {
   if (params.last) {
     return `${params.first} ${params.last}`;
   }
@@ -7,3 +7,6 @@ export const getName = (params: { first: string; last: string }) => {
 
 const name = getName({ first: "Sanjay", last: "Mali" });
 console.log(name);
+
+const firstname = getName({ first: "Sanjay" });
+console.log(firstname);
